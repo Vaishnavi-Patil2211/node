@@ -1,0 +1,25 @@
+{
+    "name": "node_app",
+    "version": "1.0.0",
+    "description": "node tut app",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "execute": "node app.js",
+      "watch": "node app.js",
+      "start": "nodemon app.js"
+      
+    },
+    "author": "shubham",
+    "license": "ISC",
+    "dependencies": {
+      "cowsay": "^1.5.0",
+      "lodash": "^4.17.21",
+      "nodemon": "^2.0.15",
+      "webpack": "^5.61.0"
+    },
+    "devDependencies": {
+      "uuid": "^8.3.2"
+    }
+  }
+  
